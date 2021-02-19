@@ -9,7 +9,7 @@ echo "Backing up the sources file"
 cp /etc/apt/sources.list /etc/apt/list.sources.org
 # enable contrib and non-free
 echo "Adding contrib and non-free"
-'cat /etc/apt/sources.list | grep "contrib non-free" || sed -i "s/main/main contrib non-free/g" /etc/apt/sources.list
+cat /etc/apt/sources.list | grep "contrib non-free" || sed -i "s/main/main contrib non-free/g" /etc/apt/sources.list
 # update apt
 echo "Updating apt"
 apt update

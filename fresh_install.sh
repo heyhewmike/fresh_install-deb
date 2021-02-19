@@ -21,7 +21,6 @@ apt install -y lsb-release
 echo "Adding backports"
 mkdir -p /etc/apt/sources.list.d
 cd /etc/apt/sources.list.d/
-touch backports.list
 cat "deb http://deb.debian.org/debian $(lsb_release -cs)-backports main contrib non-free" >> backports.list
 echo "Updating & Upgrading - Again - Backports"
 apt update && apt -y upgrade

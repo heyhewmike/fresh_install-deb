@@ -1,0 +1,27 @@
+This script was initally created for when I was repeatedly having to reinstall various Debian based distros as I was trying to 
+get my 2 Nvidia Graphic Cards working.
+It was discovered that the issue I was facing was due to my inability to make them work together to display across the
+4 screens I was using.
+Originally the script was updating my apt sources file, move over my preferred ssh config file, edit my fstab file and to install
+the Nvidia drivers needed for my version of hardware.
+
+It was later as I was learning how to use GitHub that I uploaded a sanitized version, primarily removing of the user specific parts
+such as updating the fstab and moving of the ssh config, of my script to git hub for learning reasons.
+
+I had interacted with Jeremy Carter during my process of trying to get my hardware working. It was shortly after that struggle
+of mine Jeremy had released a script on social media with a little preface about how there were many people did not like
+base Debian and made this script for people to use to make all the basic updates.
+
+After that social media post Jeremy penned an article on linuxstans.com that I referenced in my script. It was based on that
+article that I made changes to my script. I then reached out to Jeremy via social media for a peer review and some
+feedback and recommendations along with some insight into the code he had shared in his article.
+
+Although I took some of the code that was used in the article it helped to expand the understand bash and bash scripting.
+I took great steps to ensure that I felt I was not using the exact code he had used in his program that he shared in the
+article from his gitlab repo. The program, although it achieves the same outcome, he has in his gitlab is different in code.
+Due to this I felt it was right to provide credit in the code base to the article he penned.
+
+Due to the learnings from reading his article and chatting with Jeremy my code began to look similar to his article as I saw
+the way he had written parts of it was more efficient then the way I was doing it.
+
+I also chose to do some things differently as not to completely copy his work.

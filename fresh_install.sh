@@ -49,7 +49,7 @@ su - -c 'apt update && apt -y upgrade && apt install -y firmware-linux firmware-
 # download slack installer to downloads
 clear && echo "Downloading Slack"
 echo "This is Version 4.13.0"
-echo "The script will need a new download URL if you want a newer version" && sleep 1
+echo "The script will need a new download URL if you want a newer version" && sleep 3
 # sets the current signed in user as a variable so the slack
 # installer gets downloaded to the correct file path
 export currentuser=$(pwd | cut -d/ -f3)
